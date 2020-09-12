@@ -1,0 +1,11 @@
+framework module Labrador_swift {
+  umbrella header "Labrador_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Labrador_swift.Swift {
+    header "Labrador_swift-Swift.h"
+    requires objc
+}

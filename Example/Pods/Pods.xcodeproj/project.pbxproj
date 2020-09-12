@@ -13,7 +13,7 @@
 		627FFB6D770EDE98C7FA3D8668E881B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8FF6EBB06F72F630DDB2E0F343C84B57 /* Pods-Labrador_swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0D8A8265293405C0DE792317AAD567 /* Pods-Labrador_swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9408F57554A4C3E726A8B44E04C457C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9D2DD3D46EB5B7BE7396EED3414BDC1C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257593851C03F4A01D2E56B84973E4B /* ReplaceMe.swift */; };
+		97513D75250CCB6B00A8D57C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97513D74250CCB6B00A8D57C /* Test.swift */; };
 		A2AA3BECBEADBB4AD5122F5214EF9572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		ABE8F451534D96F9BB1FF7FFC13800BA /* Pods-Labrador_swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C6245C1E60D8D1DCCFB654041155D /* Pods-Labrador_swift_Tests-dummy.m */; };
 		F37BAE52EFA25B360A3CB406608BBADD /* Pods-Labrador_swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2683C69F8A66A5AA2DB1727E7814D5 /* Pods-Labrador_swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		0FF11D35454EA2273318F247AAF39E54 /* Labrador_swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Labrador_swift-prefix.pch"; sourceTree = "<group>"; };
 		11BAFB4D4248DC7293E2A6DCAF21B807 /* Labrador_swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Labrador_swift-Info.plist"; sourceTree = "<group>"; };
-		1257593851C03F4A01D2E56B84973E4B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Labrador_swift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1A34598A2326A1DCE89898E54C1E4E63 /* Pods-Labrador_swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Labrador_swift_Example-Info.plist"; sourceTree = "<group>"; };
 		1E2683C69F8A66A5AA2DB1727E7814D5 /* Pods-Labrador_swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Labrador_swift_Example-umbrella.h"; sourceTree = "<group>"; };
 		21E562AB2E6C1BC9B0C50B032BEC2C6C /* Pods-Labrador_swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Labrador_swift_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -50,24 +49,25 @@
 		3A6D6F3EEF6A02C0B9B6333059245AFF /* Labrador_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Labrador_swift.debug.xcconfig; sourceTree = "<group>"; };
 		3D3915536AAFF2AA432C586FECC4A1A3 /* Labrador_swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Labrador_swift-dummy.m"; sourceTree = "<group>"; };
 		4173A5312A686A7940C665A2A6E01DB8 /* Labrador_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Labrador_swift.modulemap; sourceTree = "<group>"; };
-		4201B014A5D91B4A3855F70504E42BE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4201B014A5D91B4A3855F70504E42BE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		62A43A4F5BC4E0C43BF78E7BBCA1BAC6 /* Pods-Labrador_swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Labrador_swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		706479C7764A284C7984030437ABBEB4 /* Pods-Labrador_swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Labrador_swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8884484DB21B2AD9F0C1137093D11240 /* Labrador_swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Labrador_swift-umbrella.h"; sourceTree = "<group>"; };
 		8B2511A536C62C54C5841E50BCA3F5EE /* Pods-Labrador_swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Labrador_swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		938B5E3A1EF6486BC0DD7D6231A5C1A2 /* Pods-Labrador_swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Labrador_swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		97513D74250CCB6B00A8D57C /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Test.swift; path = Labrador_swift/Classes/Test.swift; sourceTree = "<group>"; };
 		9CF1141565182C33F6C6F022C5C05AAA /* Pods-Labrador_swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Labrador_swift_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F90DA3030120FC3E3EE99A966D4D48D /* Pods-Labrador_swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Labrador_swift_Example.modulemap"; sourceTree = "<group>"; };
-		A2ED9094E0C7214C84C660EC7D66C703 /* Pods_Labrador_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Labrador_swift_Tests.framework; path = "Pods-Labrador_swift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A49EECD443A67D8120004A1750920D9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A2ED9094E0C7214C84C660EC7D66C703 /* Pods_Labrador_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Labrador_swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49EECD443A67D8120004A1750920D9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A658F7E900C2B39CE730EC8E8D26F6D3 /* Pods-Labrador_swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Labrador_swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A681D49685403E872868944F8BE9FB94 /* Pods-Labrador_swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Labrador_swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AD0D8A8265293405C0DE792317AAD567 /* Pods-Labrador_swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Labrador_swift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B242474313B3C87825B73B0D67110BF0 /* Labrador_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Labrador_swift.release.xcconfig; sourceTree = "<group>"; };
-		B2FB9A155018B3AD1771D1F1269E62AE /* Labrador_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Labrador_swift.framework; path = Labrador_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC2B9FD3688B7FA393FFC40FD35025C0 /* Labrador_swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Labrador_swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D4BD14C21CF33040A3801750DA310D1B /* Pods_Labrador_swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Labrador_swift_Example.framework; path = "Pods-Labrador_swift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FB9A155018B3AD1771D1F1269E62AE /* Labrador_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Labrador_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2B9FD3688B7FA393FFC40FD35025C0 /* Labrador_swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Labrador_swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4BD14C21CF33040A3801750DA310D1B /* Pods_Labrador_swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Labrador_swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5866EED29D14545AAC1ACF8218F83CD /* Pods-Labrador_swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Labrador_swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D67C6245C1E60D8D1DCCFB654041155D /* Pods-Labrador_swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Labrador_swift_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,7 +146,7 @@
 		8EC893AEB3EE2F03DDF9BD59D0AFB175 /* Labrador_swift */ = {
 			isa = PBXGroup;
 			children = (
-				1257593851C03F4A01D2E56B84973E4B /* ReplaceMe.swift */,
+				97513D74250CCB6B00A8D57C /* Test.swift */,
 				8265510604999ADDCE27EDF7CCFCA013 /* Pod */,
 				94CD4169556886C2E5ACA155F8432FCC /* Support Files */,
 			);
@@ -368,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E07862A1E9583AB5AF5F9C314EE7C3A /* Labrador_swift-dummy.m in Sources */,
-				9D2DD3D46EB5B7BE7396EED3414BDC1C /* ReplaceMe.swift in Sources */,
+				97513D75250CCB6B00A8D57C /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +424,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Labrador_swift/Labrador_swift.modulemap";
 				PRODUCT_MODULE_NAME = Labrador_swift;
 				PRODUCT_NAME = Labrador_swift;
@@ -558,8 +559,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -681,6 +681,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Labrador_swift/Labrador_swift.modulemap";
 				PRODUCT_MODULE_NAME = Labrador_swift;
 				PRODUCT_NAME = Labrador_swift;

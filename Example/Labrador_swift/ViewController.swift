@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import Labrador_swift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Test().es_p()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
