@@ -1,5 +1,5 @@
 PODS:
-  - Labrador_swift (0.1.0)
+  - Labrador_swift (0.0.1)
 
 DEPENDENCIES:
   - Labrador_swift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Labrador_swift: 6709eea04181378260b642d1afa0944bb01bd6cd
+  Labrador_swift: 8f0587ed840f272b2f9099513b895753bb7e315f
 
 PODFILE CHECKSUM: 256217164ede981a0e5b1d06eb8cc86aee9060ab
 

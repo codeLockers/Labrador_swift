@@ -11,4 +11,8 @@ public class Test: NSObject {
     public func es_p() {
         print("🚀🚀🚀🚀🚀")
     }
+    
+    public func es_p2() {
+        print("🔥🔥🔥🔥🔥🔥🔥")
+    }
 }

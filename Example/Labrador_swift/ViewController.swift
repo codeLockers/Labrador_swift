@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Test().es_p()
+        Test().es_p2()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
