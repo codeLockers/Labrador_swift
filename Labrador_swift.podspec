@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'Labrador_swift/Classes/**/*'
-  # s.ios.vendored_frameworks = 'Labrador_swift.framework'
-  # s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
+  # s.source_files = 'Labrador_swift/Classes/**/*'
+  s.ios.vendored_frameworks = 'Labrador_swift.framework'
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   
   # s.resource_bundles = {
   #   'Labrador_swift' => ['Labrador_swift/Assets/*.png']
