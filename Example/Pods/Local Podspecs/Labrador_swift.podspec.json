@@ -1,0 +1,22 @@
+{
+  "name": "Labrador_swift",
+  "version": "0.1.0",
+  "summary": "A short description of Labrador_swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/coker-xuzhang/Labrador_swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "coker-xuzhang": "codeLockers@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/coker-xuzhang/Labrador_swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Labrador_swift/Classes/**/*"
+}

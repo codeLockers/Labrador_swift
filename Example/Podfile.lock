@@ -1,0 +1,16 @@
+PODS:
+  - Labrador_swift (0.1.0)
+
+DEPENDENCIES:
+  - Labrador_swift (from `../`)
+
+EXTERNAL SOURCES:
+  Labrador_swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Labrador_swift: 6709eea04181378260b642d1afa0944bb01bd6cd
+
+PODFILE CHECKSUM: 256217164ede981a0e5b1d06eb8cc86aee9060ab
+
+COCOAPODS: 1.9.1
