@@ -295,7 +295,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Labrador_swift_Example/Pods-Labrador_swift_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Labrador_swift/Labrador_swift.framework",
+				"${PODS_ROOT}/../../Labrador_swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

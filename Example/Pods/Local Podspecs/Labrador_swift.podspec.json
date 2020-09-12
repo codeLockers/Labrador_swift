@@ -1,6 +1,6 @@
 {
   "name": "Labrador_swift",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "It is a watchdog for flora_swift prject",
   "homepage": "https://github.com/codeLockers/Labrador_swift",
   "license": {
@@ -12,12 +12,17 @@
   },
   "source": {
     "git": "https://github.com/codeLockers/Labrador_swift.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "11.0"
   },
   "swift_versions": "5.0",
-  "source_files": "Labrador_swift/Classes/**/*",
+  "ios": {
+    "vendored_frameworks": "Labrador_swift.framework"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS[sdk=iphonesimulator*]": ""
+  },
   "swift_version": "5.0"
 }
