@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Labrador_swift_Example' do
+  pod 'Labrador_swift', :path => '../'
+
+  target 'Labrador_swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
